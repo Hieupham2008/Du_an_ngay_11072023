@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Đăng nhập - Web site của Phạm Trung Hiếu</title>
+    <style>
+        h2{
+            text-align:center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size:46px;
+            color:cadetblue;
+            border-color:blueviolet;
+        }
+        p{
+            text-align:center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:30px;
+            color:blue;
+        }
+        button{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:50px;
+            color:brown;
+            border-color:blue;
+            background-color:burlywood;
+            margin-left:100px;
+            border-radius:30%;
+            width:800px;
+        }
+        form{
+            text-align:center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:40px;
+            margin-left:300px;
+            color:aquamarine;
+            width:300px;
+        }
+        input{
+            text-align:center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:40px;
+            margin-left:10px;
+            color:black;
+            background-color:chartreuse;
+            border-color:chocolate;
+            border-radius:30%;
+            width:1000px;
+            border-top-left-radius: 20%;
+        }
+        body{
+            background-image:url(./IMG_20230608_193144.jpg)
+        }
+        div{
+            border-color:blue;
+            border-radius:15%;
+            background-color:brown
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-form">
+            <div class="main-div">
+                <div class="panel">
+                    <h2>ĐĂNG NHẬP THÔNG TIN CÁ NHÂN CỦA ADMIN</h2>
+                    <p>VUI LÒNG NHẬP ĐỊA CHỈ EMAIL VÀ MẬT KHẨU CỦA BẠN ĐỂ NHẬN DẠNG ĐƯỢC</p>
+                </div>
+                <form id="login">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Địa chỉ Email cá nhân">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="enterPassword" placeholder="Nhập mật khẩu cá nhân của bạn">
+                    </div>
+                    <div class="forgot">
+                        <a href="reset.html">Bạn đã quên mật khẩu?</a>
+                    </div>
+                    <button type="submit" class="btn-primary" ><a href="Home.html">Đăng nhập</a> </button>
+                    <button type="register" class="btn-primary"> Đăng ký tài khoản mới</button>
+            </div>
+        </div>
+    </div>

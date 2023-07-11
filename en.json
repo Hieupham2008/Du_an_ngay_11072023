@@ -1,0 +1,8 @@
+{
+    "panel_title":"LOGIN ADMIN'S PERSONAL INFORMATION",
+    "panel_content":"PLEASE ENTER YOUR EMAIL AND PASSWORD TO IDENTIFIABLE ",
+    "input_email":"Personal Email",
+    "enter_password":"Enter your personal password",
+    "text_forgot":"Forgot your password?",
+    "button_login":"Login"
+}
